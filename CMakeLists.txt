@@ -4,7 +4,9 @@ project(davp-baseline)
 include_directories("$ENV{HOME}/libs/include")
 link_directories("$ENV{HOME}/libs/lib")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
+if(CMAKE_COMPILER_IS_GNUCXX)
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
+endif(CMAKE_COMPILER_IS_GNUCXX)
 set(CMAKE_CXX_STANDARD 11)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules" "$ENV{HOME}/libs/lib")
@@ -12,7 +14,7 @@ list(APPEND CMAKE_PREFIX_PATH "$ENV{HOME}/libs/lib")
 
 find_package(Threads REQUIRED)
 find_package(OpenCV REQUIRED)
-find_package(FFmpeg REQUIRED)
+find_package(FFmpeg REQUIRED PATHS "/lib/ffmpeg")
 
 if (FFMPEG_FOUND)
     #  FFMPEG_INCLUDE_DIRS  - Include directory necessary for using the required components headers.
@@ -65,6 +67,8 @@ add_executable(ssp_client_opencv clients/ssp_client_opencv.cc readers/network_re
 add_executable(ssp_client_template clients/ssp_client_template.cc readers/network_reader.cc ${DECODER_SOURCE_FILES} ${SOURCE_FILES} ${CLIENT_SOURCE_FILES})
 add_executable(ssp_server servers/ssp_server.cc ${READER_SOURCE_FILES} ${DECODER_SOURCE_FILES} ${ENCODER_SOURCE_FILES} ${SOURCE_FILES})
 add_executable(ssp_tester testers/ssp_tester.cc utils/similarity_measures.cc ${READER_SOURCE_FILES} ${DECODER_SOURCE_FILES} ${ENCODER_SOURCE_FILES} ${SOURCE_FILES})
+
+add_library(ssp_plugin clients/ssp_client_plugin.cc readers/network_reader.cc ${READER_SOURCE_FILES} ${DECODER_SOURCE_FILES} ${SOURCE_FILES} ${CLIENT_SOURCE_FILES})
 
 set(LIB_FILES zmq zdepth zstd yaml-cpp swscale)
 
