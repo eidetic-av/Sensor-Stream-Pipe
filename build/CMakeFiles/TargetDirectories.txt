@@ -1,0 +1,9 @@
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_client_opencv.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_client_k4a.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_client_template.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_client_pointcloud.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_client_plugin.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_tester.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ssp_server.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ALL_BUILD.dir
+C:/Sensor-Stream-Pipe/build/CMakeFiles/ZERO_CHECK.dir

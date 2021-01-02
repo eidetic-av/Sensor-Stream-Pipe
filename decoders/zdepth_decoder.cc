@@ -25,3 +25,9 @@ cv::Mat ZDepthDecoder::Decode(FrameStruct& frame) {
                  cv::Mat::AUTO_STEP);
   ;
 }
+
+void* ZDepthDecoder::DecodeRaw(FrameStruct& frame) {
+    zdepth::DepthResult result =
+        decompressor_.Decompress(frame.frame, width_, height_, decompressed_buffer_);
+    return decompressed_buffer_.data();
+}

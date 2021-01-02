@@ -283,8 +283,12 @@ void LibAvEncoder::Init(std::shared_ptr<FrameStruct> &fs) {
   av_codec_context_->width = width;
   av_codec_context_->height = height;
   /* frames per second */
-  av_codec_context_->time_base = (AVRational){1, (int)fps_};
-  av_codec_context_->framerate = (AVRational){(int)fps_, 1};
+  //av_codec_context_->time_base = (AVRational){1, (int)fps_};
+  av_codec_context_->time_base.den = (int)fps_;
+  av_codec_context_->time_base.num = 1;
+  //av_codec_context_->framerate = (AVRational){(int)fps_, 1};
+  av_codec_context_->framerate.den = (int)fps_;
+  av_codec_context_->framerate.num = 1;
   av_codec_context_->gop_size = 0;
 
   av_codec_context_->bit_rate_tolerance = 0;
@@ -348,7 +352,7 @@ void LibAvEncoder::Init(std::shared_ptr<FrameStruct> &fs) {
 
   ret = avcodec_open2(av_codec_context_.get(), av_codec_.get(), NULL);
   if (ret < 0) {
-    spdlog::error("Could not open codec: {}", av_err2str(ret));
+    //spdlog::error("Could not open codec: {}", av_err2str(ret));
     exit(1);
   }
 

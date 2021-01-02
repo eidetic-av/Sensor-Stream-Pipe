@@ -1,0 +1,14 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Sensor-Stream-Pipe/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Sensor-Stream-Pipe/CMakeLists.txt'
+    is newer than 'C:/Sensor-Stream-Pipe/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- OpenCV ARCH: x64
+  -- OpenCV RUNTIME: vc16
+  -- OpenCV STATIC: OFF
+  -- Found OpenCV 3.4.13 in /lib/Install/opencv/x64/vc16/lib
+  -- You might need to add \lib\Install\opencv\x64\vc16\bin to your PATH to be able to run your applications.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Sensor-Stream-Pipe/build

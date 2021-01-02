@@ -1,0 +1,50 @@
+﻿  video_file_reader.cc
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(107,41): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(113,43): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(114,43): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(115,47): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(157,41): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned char
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(160,35): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned char
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(167,22): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(44,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(237,49): warning C4244: 'argument': conversion from 'int64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(238,55): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  libav_encoder.cc
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(11,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(21,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(157,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(158,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(182,23): warning C4244: '=': conversion from 'const _Ty' to 'uint8_t', possible loss of data
+          with
+          [
+              _Ty=ushort
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(233,57): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(429,41): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  Generating Code...
+     Creating library C:/Sensor-Stream-Pipe/build/bin/Release/ssp_server.lib and object C:/Sensor-Stream-Pipe/build/bin/Release/ssp_server.exp
+  ssp_server.vcxproj -> C:\Sensor-Stream-Pipe\build\bin\Release\ssp_server.exe

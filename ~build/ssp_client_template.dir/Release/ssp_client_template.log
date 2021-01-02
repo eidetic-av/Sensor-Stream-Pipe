@@ -1,0 +1,5 @@
+﻿  ssp_client_template.cc
+C:\Sensor-Stream-Pipe\clients\ssp_client_template.cc(37,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\clients\ssp_client_template.cc(37,22): warning C4996: 'getpid': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getpid. See online help for details.
+     Creating library C:/Sensor-Stream-Pipe/build/bin/Release/ssp_client_template.lib and object C:/Sensor-Stream-Pipe/build/bin/Release/ssp_client_template.exp
+  ssp_client_template.vcxproj -> C:\Sensor-Stream-Pipe\build\bin\Release\ssp_client_template.exe

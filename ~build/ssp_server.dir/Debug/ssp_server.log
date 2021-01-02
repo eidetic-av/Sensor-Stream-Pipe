@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/Sensor-Stream-Pipe/CMakeLists.txt
+  ssp_server.cc
+C:\Sensor-Stream-Pipe\servers\../utils/logger.h(8,10): fatal error C1083: Cannot open include file: 'spdlog/spdlog.h': No such file or directory
+  video_file_reader.cc
+C:\Sensor-Stream-Pipe\readers\../utils/logger.h(8,10): fatal error C1083: Cannot open include file: 'spdlog/spdlog.h': No such file or directory
+  image_reader.cc
+C:\Sensor-Stream-Pipe\readers\image_reader.h(11,10): fatal error C1083: Cannot open include file: 'cereal/archives/binary.hpp': No such file or directory
+  kinect_reader.cc
+C:\Sensor-Stream-Pipe\readers\../utils/logger.h(8,10): fatal error C1083: Cannot open include file: 'spdlog/spdlog.h': No such file or directory
+  kinect_utils.cc
+C:\Sensor-Stream-Pipe\utils\kinect_utils.h(8,10): fatal error C1083: Cannot open include file: 'k4a/k4a.h': No such file or directory
+  libav_decoder.cc
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.h(8,10): fatal error C1083: Cannot open include file: 'libavcodec/avcodec.h': No such file or directory
+  zdepth_decoder.cc
+C:\Sensor-Stream-Pipe\decoders\../structs/frame_struct.hpp(10,10): fatal error C1083: Cannot open include file: 'cereal/archives/binary.hpp': No such file or directory
+  zdepth_encoder.cc
+C:\Sensor-Stream-Pipe\encoders\zdepth_encoder.h(7,10): fatal error C1083: Cannot open include file: 'zdepth.hpp': No such file or directory
+  null_encoder.cc
+C:\Sensor-Stream-Pipe\encoders\../structs/frame_struct.hpp(10,10): fatal error C1083: Cannot open include file: 'cereal/archives/binary.hpp': No such file or directory
+  libav_encoder.cc
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.h(12,10): fatal error C1083: Cannot open include file: 'cereal/archives/binary.hpp': No such file or directory
+  multi_image_reader.cc
+C:\Sensor-Stream-Pipe\readers\multi_image_reader.h(11,10): fatal error C1083: Cannot open include file: 'cereal/archives/binary.hpp': No such file or directory
+  utils.cc
+C:\Sensor-Stream-Pipe\utils\logger.h(8,10): fatal error C1083: Cannot open include file: 'spdlog/spdlog.h': No such file or directory
+  video_utils.cc
+C:\Sensor-Stream-Pipe\utils\video_utils.h(20,10): fatal error C1083: Cannot open include file: 'libavcodec/avcodec.h': No such file or directory
+  image_decoder.cc
+C:\Sensor-Stream-Pipe\utils\image_decoder.h(13,10): fatal error C1083: Cannot open include file: 'libavcodec/avcodec.h': No such file or directory
+  image_converter.cc
+C:\Sensor-Stream-Pipe\decoders\../structs/frame_struct.hpp(10,10): fatal error C1083: Cannot open include file: 'cereal/archives/binary.hpp': No such file or directory
+  Generating Code...

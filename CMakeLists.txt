@@ -68,7 +68,7 @@ add_executable(ssp_client_template clients/ssp_client_template.cc readers/networ
 add_executable(ssp_server servers/ssp_server.cc ${READER_SOURCE_FILES} ${DECODER_SOURCE_FILES} ${ENCODER_SOURCE_FILES} ${SOURCE_FILES})
 add_executable(ssp_tester testers/ssp_tester.cc utils/similarity_measures.cc ${READER_SOURCE_FILES} ${DECODER_SOURCE_FILES} ${ENCODER_SOURCE_FILES} ${SOURCE_FILES})
 
-add_library(ssp_plugin clients/ssp_client_plugin.cc readers/network_reader.cc ${READER_SOURCE_FILES} ${DECODER_SOURCE_FILES} ${SOURCE_FILES} ${CLIENT_SOURCE_FILES})
+add_library(ssp_client_plugin SHARED clients/ssp_client_plugin.cc readers/network_reader.cc ${DECODER_SOURCE_FILES} ${SOURCE_FILES} ${CLIENT_SOURCE_FILES})
 
 set(LIB_FILES zmq zdepth zstd yaml-cpp swscale)
 

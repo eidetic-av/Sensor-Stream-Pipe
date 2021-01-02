@@ -13,4 +13,5 @@ public:
   virtual ~IDecoder() {}
 
   virtual cv::Mat Decode(FrameStruct& data) = 0;
+  virtual void* DecodeRaw(FrameStruct& data) = 0;
 };

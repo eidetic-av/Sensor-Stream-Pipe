@@ -10,8 +10,8 @@ int ImageDecoder::DecodePacket(AVFrameSharedP pFrame) {
   int response = avcodec_send_packet(av_codec_context_.get(), packet_.get());
 
   if (response < 0) {
-    spdlog::error("Error while sending a packet to the decoder: {}",
-                  av_err2str(response));
+    /*spdlog::error("Error while sending a packet to the decoder: {}",
+                  av_err2str(response));*/
     return response;
   }
 
@@ -22,8 +22,8 @@ int ImageDecoder::DecodePacket(AVFrameSharedP pFrame) {
     if (response == AVERROR(EAGAIN) || response == AVERROR_EOF) {
       break;
     } else if (response < 0) {
-      spdlog::error("Error while receiving a frame from the decoder: {}",
-                    av_err2str(response));
+      /*spdlog::error("Error while receiving a frame from the decoder: {}",
+                    av_err2str(response));*/
       return response;
     }
 

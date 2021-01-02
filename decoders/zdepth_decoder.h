@@ -19,4 +19,5 @@ public:
   ~ZDepthDecoder();
   void Init(std::vector<unsigned char> parameter_data);
   cv::Mat Decode(FrameStruct& frame);
+  void* DecodeRaw(FrameStruct& frame);
 };

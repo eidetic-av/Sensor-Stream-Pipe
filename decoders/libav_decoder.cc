@@ -82,3 +82,7 @@ AVFrameSharedP LibAvDecoder::DecodeFrame(FrameStruct &frame_struct) {
   }
   return frame_av;
 }
+
+void* LibAvDecoder::DecodeRaw(FrameStruct& frame_struct) {
+    return 0;
+}
