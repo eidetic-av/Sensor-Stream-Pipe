@@ -20,6 +20,7 @@ LibAvEncoder::LibAvEncoder(std::string codec_parameters_file,
 LibAvEncoder::LibAvEncoder(YAML::Node &_codec_parameters, unsigned int _fps) {
   av_register_all();
   codec_parameters_ = _codec_parameters;
+
   fps_ = _fps;
 
   ready_ = false;

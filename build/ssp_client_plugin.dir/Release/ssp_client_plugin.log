@@ -1,0 +1,133 @@
+﻿  Building Custom Rule C:/Sensor-Stream-Pipe/CMakeLists.txt
+  ssp_client_plugin.cc
+C:\Sensor-Stream-Pipe\clients\ssp_client_plugin.cc(41,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\clients\ssp_client_plugin.cc(41,28): warning C4996: 'getpid': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getpid. See online help for details.
+  network_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\network_reader.cc(53,20): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+C:\Sensor-Stream-Pipe\readers\network_reader.cc(66,52): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\network_reader.cc(39,10): warning C4996: 'zmq::detail::socket_base::recv': from 4.3.1, use recv taking a reference to message_t and recv_flags
+  libav_decoder.cc
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(12,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(40,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(73,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  zdepth_decoder.cc
+  image_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(51,28): warning C4101: 'e': unreferenced local variable
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(100,45): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(101,44): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  multi_image_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  utils.cc
+  video_utils.cc
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(15,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(64,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  image_decoder.cc
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(44,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(58,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(77,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  image_converter.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  Generating Code...
+     Creating library C:/Sensor-Stream-Pipe/build/Release/ssp_client_plugin.lib and object C:/Sensor-Stream-Pipe/build/Release/ssp_client_plugin.exp
+ssp_client_plugin.obj : error LNK2019: unresolved external symbol av_log_set_level referenced in function InitNetworkReader
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_errno referenced in function "public: __cdecl zmq::error_t::error_t(void)" (??0error_t@zmq@@QEAA@XZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_strerror referenced in function "public: virtual char const * __cdecl zmq::error_t::what(void)const " (?what@error_t@zmq@@UEBAPEBDXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_ctx_new referenced in function "public: void __cdecl NetworkReader::init(void)" (?init@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_ctx_set referenced in function "public: void __cdecl NetworkReader::init(void)" (?init@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_ctx_destroy referenced in function "public: __cdecl std::unique_ptr<class zmq::context_t,struct std::default_delete<class zmq::context_t> >::~unique_ptr<class zmq::context_t,struct std::default_delete<class zmq::context_t> >(void)" (??1?$unique_ptr@Vcontext_t@zmq@@U?$default_delete@Vcontext_t@zmq@@@std@@@std@@QEAA@XZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_msg_init referenced in function "public: void __cdecl NetworkReader::NextFrame(void)" (?NextFrame@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_msg_recv referenced in function "public: void __cdecl NetworkReader::NextFrame(void)" (?NextFrame@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_msg_close referenced in function "public: __cdecl zmq::message_t::~message_t(void)" (??1message_t@zmq@@QEAA@XZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_msg_data referenced in function "public: void __cdecl NetworkReader::NextFrame(void)" (?NextFrame@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_msg_size referenced in function "public: void __cdecl NetworkReader::NextFrame(void)" (?NextFrame@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_socket referenced in function "public: void __cdecl NetworkReader::init(void)" (?init@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_close referenced in function "public: __cdecl std::unique_ptr<class zmq::socket_t,struct std::default_delete<class zmq::socket_t> >::~unique_ptr<class zmq::socket_t,struct std::default_delete<class zmq::socket_t> >(void)" (??1?$unique_ptr@Vsocket_t@zmq@@U?$default_delete@Vsocket_t@zmq@@@std@@@std@@QEAA@XZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_bind referenced in function "public: void __cdecl NetworkReader::init(void)" (?init@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_poller_new referenced in function "public: __cdecl NetworkReader::NetworkReader(int)" (??0NetworkReader@@QEAA@H@Z)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_poller_destroy referenced in function "public: __cdecl zmq::poller_t<struct zmq::no_user_data>::~poller_t<struct zmq::no_user_data>(void)" (??1?$poller_t@Uno_user_data@zmq@@@zmq@@QEAA@XZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_poller_add referenced in function "public: void __cdecl NetworkReader::init(void)" (?init@NetworkReader@@QEAAXXZ)
+network_reader.obj : error LNK2019: unresolved external symbol __imp_zmq_poller_wait_all referenced in function "public: bool __cdecl NetworkReader::HasNextFrame(void)" (?HasNextFrame@NetworkReader@@QEAA_NXZ)
+libav_decoder.obj : error LNK2019: unresolved external symbol av_frame_alloc referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+image_reader.obj : error LNK2001: unresolved external symbol av_frame_alloc
+libav_decoder.obj : error LNK2019: unresolved external symbol av_frame_free referenced in function "public: __cdecl std::_Temporary_owner_del<struct AVFrame *,class <lambda_020671c0defb33b79fdfc4163b2a968e> >::~_Temporary_owner_del<struct AVFrame *,class <lambda_020671c0defb33b79fdfc4163b2a968e> >(void)" (??1?$_Temporary_owner_del@PEAUAVFrame@@V<lambda_020671c0defb33b79fdfc4163b2a968e>@@@std@@QEAA@XZ)
+image_reader.obj : error LNK2001: unresolved external symbol av_frame_free
+libav_decoder.obj : error LNK2019: unresolved external symbol av_packet_alloc referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol av_packet_alloc
+libav_decoder.obj : error LNK2019: unresolved external symbol av_packet_free referenced in function "public: __cdecl std::_Temporary_owner_del<struct AVPacket *,class <lambda_6009a26cecec815f7796a45b99586e0b> >::~_Temporary_owner_del<struct AVPacket *,class <lambda_6009a26cecec815f7796a45b99586e0b> >(void)" (??1?$_Temporary_owner_del@PEAUAVPacket@@V<lambda_6009a26cecec815f7796a45b99586e0b>@@@std@@QEAA@XZ)
+image_decoder.obj : error LNK2001: unresolved external symbol av_packet_free
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_find_decoder referenced in function "public: void __cdecl LibAvDecoder::Init(struct AVCodecParameters *)" (?Init@LibAvDecoder@@QEAAXPEAUAVCodecParameters@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_find_decoder
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_alloc_context3 referenced in function "public: void __cdecl LibAvDecoder::Init(struct AVCodecParameters *)" (?Init@LibAvDecoder@@QEAAXPEAUAVCodecParameters@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_alloc_context3
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_free_context referenced in function "public: virtual __cdecl LibAvDecoder::~LibAvDecoder(void)" (??1LibAvDecoder@@UEAA@XZ)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_free_context
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_parameters_to_context referenced in function "public: void __cdecl LibAvDecoder::Init(struct AVCodecParameters *)" (?Init@LibAvDecoder@@QEAAXPEAUAVCodecParameters@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_parameters_to_context
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_open2 referenced in function "public: void __cdecl LibAvDecoder::Init(struct AVCodecParameters *)" (?Init@LibAvDecoder@@QEAAXPEAUAVCodecParameters@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_open2
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_send_packet referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_send_packet
+libav_decoder.obj : error LNK2019: unresolved external symbol avcodec_receive_frame referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol avcodec_receive_frame
+libav_decoder.obj : error LNK2019: unresolved external symbol av_register_all referenced in function "public: void __cdecl LibAvDecoder::Init(struct AVCodecParameters *)" (?Init@LibAvDecoder@@QEAAXPEAUAVCodecParameters@@@Z)
+image_decoder.obj : error LNK2001: unresolved external symbol av_register_all
+libav_decoder.obj : error LNK2019: unresolved external symbol "public: __cdecl cv::Mat::Mat(void)" (??0Mat@cv@@QEAA@XZ) referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+libav_decoder.obj : error LNK2019: unresolved external symbol "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ) referenced in function "int `public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)'::`1'::dtor$2" (?dtor$2@?0??Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z@4HA)
+video_utils.obj : error LNK2001: unresolved external symbol "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ)
+image_converter.obj : error LNK2001: unresolved external symbol "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ)
+libav_decoder.obj : error LNK2019: unresolved external symbol "public: void __cdecl cv::Mat::convertTo(class cv::_OutputArray const &,int,double,double)const " (?convertTo@Mat@cv@@QEBAXAEBV_OutputArray@2@HNN@Z) referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+libav_decoder.obj : error LNK2019: unresolved external symbol "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z) referenced in function "public: virtual class cv::Mat __cdecl LibAvDecoder::Decode(struct FrameStruct &)" (?Decode@LibAvDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+zdepth_decoder.obj : error LNK2019: unresolved external symbol "public: __cdecl cv::Mat::Mat(int,int,int,void *,unsigned __int64)" (??0Mat@cv@@QEAA@HHHPEAX_K@Z) referenced in function "public: virtual class cv::Mat __cdecl ZDepthDecoder::Decode(struct FrameStruct &)" (?Decode@ZDepthDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+image_converter.obj : error LNK2001: unresolved external symbol "public: __cdecl cv::Mat::Mat(int,int,int,void *,unsigned __int64)" (??0Mat@cv@@QEAA@HHHPEAX_K@Z)
+zdepth_decoder.obj : error LNK2019: unresolved external symbol "public: enum zdepth::DepthResult __cdecl zdepth::DepthCompressor::Decompress(class std::vector<unsigned char,class std::allocator<unsigned char> > const &,int &,int &,class std::vector<unsigned short,class std::allocator<unsigned short> > &)" (?Decompress@DepthCompressor@zdepth@@QEAA?AW4DepthResult@2@AEBV?$vector@EV?$allocator@E@std@@@std@@AEAH1AEAV?$vector@GV?$allocator@G@std@@@5@@Z) referenced in function "public: virtual class cv::Mat __cdecl ZDepthDecoder::Decode(struct FrameStruct &)" (?Decode@ZDepthDecoder@@UEAA?AVMat@cv@@AEAUFrameStruct@@@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl YAML::Exception::~Exception(void)" (??1Exception@YAML@@UEAA@XZ) referenced in function "public: virtual void * __cdecl YAML::Exception::`scalar deleting destructor'(unsigned int)" (??_GException@YAML@@UEAAPEAXI@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl YAML::RepresentationException::~RepresentationException(void)" (??1RepresentationException@YAML@@UEAA@XZ) referenced in function "public: virtual void * __cdecl YAML::RepresentationException::`scalar deleting destructor'(unsigned int)" (??_GRepresentationException@YAML@@UEAAPEAXI@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl YAML::InvalidNode::~InvalidNode(void)" (??1InvalidNode@YAML@@UEAA@XZ) referenced in function "public: virtual void * __cdecl YAML::InvalidNode::`scalar deleting destructor'(unsigned int)" (??_GInvalidNode@YAML@@UEAAPEAXI@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl YAML::BadConversion::~BadConversion(void)" (??1BadConversion@YAML@@UEAA@XZ) referenced in function "public: virtual __cdecl YAML::TypedBadConversion<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::~TypedBadConversion<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(void)" (??1?$TypedBadConversion@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@YAML@@UEAA@XZ)
+utils.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl YAML::BadSubscript::~BadSubscript(void)" (??1BadSubscript@YAML@@UEAA@XZ) referenced in function "public: virtual void * __cdecl YAML::BadSubscript::`scalar deleting destructor'(unsigned int)" (??_GBadSubscript@YAML@@UEAAPEAXI@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: class YAML::detail::node & __cdecl YAML::detail::memory::create_node(void)" (?create_node@memory@detail@YAML@@QEAAAEAVnode@23@XZ) referenced in function "public: __cdecl YAML::Node::Node<char const *>(char const * const &)" (??$?0PEBD@Node@YAML@@QEAA@AEBQEBD@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: void __cdecl YAML::detail::memory_holder::merge(class YAML::detail::memory_holder &)" (?merge@memory_holder@detail@YAML@@QEAAXAEAV123@@Z) referenced in function "private: static class YAML::detail::node & __cdecl YAML::detail::node_data::convert_to_node<char [9]>(char const (&)[9],class std::shared_ptr<class YAML::detail::memory_holder>)" (??$convert_to_node@$$BY08D@node_data@detail@YAML@@CAAEAVnode@12@AEAY08$$CBDV?$shared_ptr@Vmemory_holder@detail@YAML@@@std@@@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: void __cdecl YAML::detail::node_data::mark_defined(void)" (?mark_defined@node_data@detail@YAML@@QEAAXXZ) referenced in function "public: void __cdecl YAML::detail::node::mark_defined(void)" (?mark_defined@node@detail@YAML@@QEAAXXZ)
+utils.obj : error LNK2019: unresolved external symbol "public: void __cdecl YAML::detail::node_data::set_null(void)" (?set_null@node_data@detail@YAML@@QEAAXXZ) referenced in function "private: void __cdecl YAML::Node::EnsureNodeExists(void)const " (?EnsureNodeExists@Node@YAML@@AEBAXXZ)
+utils.obj : error LNK2019: unresolved external symbol "public: void __cdecl YAML::detail::node_data::set_scalar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?set_scalar@node_data@detail@YAML@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "private: void __cdecl YAML::Node::Assign(char const *)" (?Assign@Node@YAML@@AEAAXPEBD@Z)
+utils.obj : error LNK2019: unresolved external symbol "public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl YAML::detail::node_data::empty_scalar(void)" (?empty_scalar@node_data@detail@YAML@@SAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl YAML::Node::Scalar(void)const " (?Scalar@Node@YAML@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+utils.obj : error LNK2019: unresolved external symbol "private: void __cdecl YAML::detail::node_data::insert_map_pair(class YAML::detail::node &,class YAML::detail::node &)" (?insert_map_pair@node_data@detail@YAML@@AEAAXAEAVnode@23@0@Z) referenced in function "public: class YAML::detail::node & __cdecl YAML::detail::node_data::get<char [9]>(char const (&)[9],class std::shared_ptr<class YAML::detail::memory_holder>)" (??$get@$$BY08D@node_data@detail@YAML@@QEAAAEAVnode@12@AEAY08$$CBDV?$shared_ptr@Vmemory_holder@detail@YAML@@@std@@@Z)
+utils.obj : error LNK2019: unresolved external symbol "private: void __cdecl YAML::detail::node_data::convert_to_map(class std::shared_ptr<class YAML::detail::memory_holder> const &)" (?convert_to_map@node_data@detail@YAML@@AEAAXAEBV?$shared_ptr@Vmemory_holder@detail@YAML@@@std@@@Z) referenced in function "public: class YAML::detail::node & __cdecl YAML::detail::node_data::get<char [9]>(char const (&)[9],class std::shared_ptr<class YAML::detail::memory_holder>)" (??$get@$$BY08D@node_data@detail@YAML@@QEAAAEAVnode@12@AEAY08$$CBDV?$shared_ptr@Vmemory_holder@detail@YAML@@@std@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol av_mallocz referenced in function "struct AVCodecParameters * __cdecl getParams(struct FrameStruct &)" (?getParams@@YAPEAUAVCodecParameters@@AEAUFrameStruct@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol avcodec_parameters_alloc referenced in function "struct AVCodecParameters * __cdecl getParams(struct FrameStruct &)" (?getParams@@YAPEAUAVCodecParameters@@AEAUFrameStruct@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol sws_freeContext referenced in function "void __cdecl AVFrameToMatYUV(class std::shared_ptr<struct AVFrame> &,class cv::Mat &)" (?AVFrameToMatYUV@@YAXAEAV?$shared_ptr@UAVFrame@@@std@@AEAVMat@cv@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol sws_getContext referenced in function "void __cdecl AVFrameToMatYUV(class std::shared_ptr<struct AVFrame> &,class cv::Mat &)" (?AVFrameToMatYUV@@YAXAEAV?$shared_ptr@UAVFrame@@@std@@AEAVMat@cv@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol sws_scale referenced in function "void __cdecl AVFrameToMatYUV(class std::shared_ptr<struct AVFrame> &,class cv::Mat &)" (?AVFrameToMatYUV@@YAXAEAV?$shared_ptr@UAVFrame@@@std@@AEAVMat@cv@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z) referenced in function "public: class cv::Mat & __cdecl cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z)
+image_converter.obj : error LNK2001: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)
+video_utils.obj : error LNK2019: unresolved external symbol "public: __cdecl cv::Mat::Mat(int,int,int)" (??0Mat@cv@@QEAA@HHH@Z) referenced in function "void __cdecl AVFrameToMatGray(class std::shared_ptr<struct AVFrame> &,class cv::Mat &)" (?AVFrameToMatGray@@YAXAEAV?$shared_ptr@UAVFrame@@@std@@AEAVMat@cv@@@Z)
+video_utils.obj : error LNK2019: unresolved external symbol "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ) referenced in function "public: class cv::Mat & __cdecl cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z)
+image_converter.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ)
+video_utils.obj : error LNK2019: unresolved external symbol "public: unsigned __int64 __cdecl cv::Mat::step1(int)const " (?step1@Mat@cv@@QEBA_KH@Z) referenced in function "void __cdecl AVFrameToMatYUV(class std::shared_ptr<struct AVFrame> &,class cv::Mat &)" (?AVFrameToMatYUV@@YAXAEAV?$shared_ptr@UAVFrame@@@std@@AEAVMat@cv@@@Z)
+image_decoder.obj : error LNK2019: unresolved external symbol av_malloc referenced in function "private: void __cdecl ImageDecoder::Init(class std::vector<unsigned char,class std::allocator<unsigned char> > &)" (?Init@ImageDecoder@@AEAAXAEAV?$vector@EV?$allocator@E@std@@@std@@@Z)
+image_decoder.obj : error LNK2019: unresolved external symbol av_freep referenced in function "public: __cdecl ImageDecoder::ImageDecoder(void)" (??0ImageDecoder@@QEAA@XZ)
+image_decoder.obj : error LNK2019: unresolved external symbol avio_alloc_context referenced in function "private: void __cdecl ImageDecoder::Init(class std::vector<unsigned char,class std::allocator<unsigned char> > &)" (?Init@ImageDecoder@@AEAAXAEAV?$vector@EV?$allocator@E@std@@@std@@@Z)
+image_decoder.obj : error LNK2019: unresolved external symbol avformat_alloc_context referenced in function "private: void __cdecl ImageDecoder::Init(class std::vector<unsigned char,class std::allocator<unsigned char> > &)" (?Init@ImageDecoder@@AEAAXAEAV?$vector@EV?$allocator@E@std@@@std@@@Z)
+image_decoder.obj : error LNK2019: unresolved external symbol avformat_free_context referenced in function "public: __cdecl ImageDecoder::ImageDecoder(void)" (??0ImageDecoder@@QEAA@XZ)
+image_decoder.obj : error LNK2019: unresolved external symbol avformat_open_input referenced in function "private: void __cdecl ImageDecoder::Init(class std::vector<unsigned char,class std::allocator<unsigned char> > &)" (?Init@ImageDecoder@@AEAAXAEAV?$vector@EV?$allocator@E@std@@@std@@@Z)
+image_decoder.obj : error LNK2019: unresolved external symbol avformat_find_stream_info referenced in function "private: void __cdecl ImageDecoder::Init(class std::vector<unsigned char,class std::allocator<unsigned char> > &)" (?Init@ImageDecoder@@AEAAXAEAV?$vector@EV?$allocator@E@std@@@std@@@Z)
+image_decoder.obj : error LNK2019: unresolved external symbol av_read_frame referenced in function "public: void __cdecl ImageDecoder::ImageBufferToAVFrame(class std::shared_ptr<struct FrameStruct> &,class std::shared_ptr<struct AVFrame>)" (?ImageBufferToAVFrame@ImageDecoder@@QEAAXAEAV?$shared_ptr@UFrameStruct@@@std@@V?$shared_ptr@UAVFrame@@@3@@Z)
+C:\Sensor-Stream-Pipe\build\Release\ssp_client_plugin.dll : fatal error LNK1120: 66 unresolved externals

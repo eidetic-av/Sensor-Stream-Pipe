@@ -1,49 +1,11 @@
-﻿  ssp_client_plugin.cc
+﻿  Building Custom Rule C:/Sensor-Stream-Pipe/CMakeLists.txt
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): warning MSB8064: Custom build for item "C:\Sensor-Stream-Pipe\CMakeLists.txt" succeeded, but specified dependency "c:\lib\install\opencv\opencvconfig-version.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): warning MSB8064: Custom build for item "C:\Sensor-Stream-Pipe\CMakeLists.txt" succeeded, but specified dependency "c:\lib\install\opencv\opencvconfig.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): warning MSB8064: Custom build for item "C:\Sensor-Stream-Pipe\CMakeLists.txt" succeeded, but specified dependency "c:\lib\install\opencv\x64\vc16\lib\opencvconfig.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): warning MSB8064: Custom build for item "C:\Sensor-Stream-Pipe\CMakeLists.txt" succeeded, but specified dependency "c:\lib\install\opencv\x64\vc16\lib\opencvmodules-release.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): warning MSB8064: Custom build for item "C:\Sensor-Stream-Pipe\CMakeLists.txt" succeeded, but specified dependency "c:\lib\install\opencv\x64\vc16\lib\opencvmodules.cmake" does not exist. This may cause incremental build to work incorrectly.
+  ssp_client_plugin.cc
 C:\Sensor-Stream-Pipe\clients\ssp_client_plugin.cc(41,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Sensor-Stream-Pipe\clients\ssp_client_plugin.cc(41,28): warning C4996: 'getpid': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getpid. See online help for details.
-  network_reader.cc
-C:\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
-C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
-C:\Sensor-Stream-Pipe\readers\network_reader.cc(53,20): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
-C:\Sensor-Stream-Pipe\readers\network_reader.cc(66,52): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned long
-          ]
-C:\Sensor-Stream-Pipe\readers\network_reader.cc(39,10): warning C4996: 'zmq::detail::socket_base::recv': from 4.3.1, use recv taking a reference to message_t and recv_flags
-  libav_decoder.cc
-C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(12,3): warning C4996: 'av_register_all': was declared deprecated
-C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(40,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(73,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  zdepth_decoder.cc
-  image_reader.cc
-C:\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
-C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
-C:\Sensor-Stream-Pipe\readers\image_reader.cc(51,28): warning C4101: 'e': unreferenced local variable
-C:\Sensor-Stream-Pipe\readers\image_reader.cc(100,45): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned long
-          ]
-C:\Sensor-Stream-Pipe\readers\image_reader.cc(101,44): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned long
-          ]
-  multi_image_reader.cc
-C:\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
-C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
-  utils.cc
-  video_utils.cc
-C:\Sensor-Stream-Pipe\utils\video_utils.cc(15,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Sensor-Stream-Pipe\utils\video_utils.cc(64,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  image_decoder.cc
-C:\Sensor-Stream-Pipe\utils\image_decoder.cc(44,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Sensor-Stream-Pipe\utils\image_decoder.cc(58,3): warning C4996: 'av_register_all': was declared deprecated
-C:\Sensor-Stream-Pipe\utils\image_decoder.cc(77,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  image_converter.cc
-C:\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
-C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
-  Generating Code...
      Creating library C:/Sensor-Stream-Pipe/build/Release/ssp_client_plugin.lib and object C:/Sensor-Stream-Pipe/build/Release/ssp_client_plugin.exp
   ssp_client_plugin.vcxproj -> C:\Sensor-Stream-Pipe\build\Release\ssp_client_plugin.dll

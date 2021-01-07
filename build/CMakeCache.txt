@@ -249,10 +249,10 @@ FFMPEG_INCLUDE_DIRS:STRING=
 FFMPEG_LIBRARIES:STRING=
 
 //The directory containing a CMake configuration file for FFmpeg.
-FFmpeg_DIR:PATH=/lib/ffmpeg
+FFmpeg_DIR:PATH=/libs/lib/ffmpeg
 
-//No help, variable specified on the command line.
-OpenCV_DIR:UNINITIALIZED=/lib/Install/opencv
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/libs/lib/opencv
 
 //The POSTPROC CFLAGS.
 POSTPROC_DEFINITIONS:STRING=
@@ -481,7 +481,7 @@ FFMPEG_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FFMPEG_LIBRARIES
 FFMPEG_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[C:/lib/Install/opencv][v3.4.13()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[C:/libs/lib/opencv][v3.4.13()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: POSTPROC_DEFINITIONS

@@ -1,50 +1,70 @@
-﻿  video_file_reader.cc
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(107,41): warning C4996: 'AVStream::codec': was declared deprecated
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(113,43): warning C4996: 'AVStream::codec': was declared deprecated
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(114,43): warning C4996: 'AVStream::codec': was declared deprecated
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(115,47): warning C4996: 'AVStream::codec': was declared deprecated
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(157,41): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned char
-          ]
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(160,35): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned char
-          ]
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(167,22): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(44,3): warning C4996: 'av_register_all': was declared deprecated
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(237,49): warning C4244: 'argument': conversion from 'int64_t' to 'const _Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned long
-          ]
-C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(238,55): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned long
-          ]
+﻿  Compiler Passes:
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\CL.exe:        Version 19.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\c1.dll:        Version 19.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\c1xx.dll:      Version 19.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\c2.dll:        Version 19.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\c1xx.dll:      Version 19.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe:      Version 14.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\mspdb140.dll:  Version 14.28.29335.0
+   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\1033\clui.dll: Version 19.28.29335.0
+  ssp_server.cc
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(42,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(208,32): warning C4244: 'initializing': conversion from 'uint64_t' to 'double', possible loss of data
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(215,26): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(42,22): warning C4996: 'getpid': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getpid. See online help for details.
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(202,15): warning C4996: 'zmq::detail::socket_base::send': from 4.3.1, use send taking message_t and send_flags
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(241,29): warning C4101: 'e': unreferenced local variable
+C:\Sensor-Stream-Pipe\servers\ssp_server.cc(244,28): warning C4101: 'e': unreferenced local variable
   libav_encoder.cc
 C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(11,3): warning C4996: 'av_register_all': was declared deprecated
 C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(21,3): warning C4996: 'av_register_all': was declared deprecated
-C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(157,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
 C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(158,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
-C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(182,23): warning C4244: '=': conversion from 'const _Ty' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(159,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(183,23): warning C4244: '=': conversion from 'const _Ty' to 'uint8_t', possible loss of data
           with
           [
               _Ty=ushort
           ]
-C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(233,57): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(234,57): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
           with
           [
               _Ty=unsigned long
           ]
-C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(429,41): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(430,41): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
           with
           [
               _Ty=unsigned long
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1073,9): error C2338: Cannot format argument. To make type T formattable provide a formatter<T> specialization: https://fmt.dev/latest/api.html#formatting-user-defined-types
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1070): message : while compiling class template member function 'int fmt::v7::detail::arg_mapper<Context>::map(...)'
+          with
+          [
+              Context=fmt::v7::basic_format_context<std::back_insert_iterator<fmt::v7::detail::buffer<char>>,char>
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1259): message : see reference to function template instantiation 'int fmt::v7::detail::arg_mapper<Context>::map(...)' being compiled
+          with
+          [
+              Context=fmt::v7::basic_format_context<std::back_insert_iterator<fmt::v7::detail::buffer<char>>,char>
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1084): message : see reference to class template instantiation 'fmt::v7::detail::arg_mapper<Context>' being compiled
+          with
+          [
+              Context=fmt::v7::basic_format_context<std::back_insert_iterator<fmt::v7::detail::buffer<char>>,char>
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1241): message : see reference to alias template instantiation 'fmt::v7::detail::mapped_type_constant<fmt::v7::basic_string_view<char>,Context>' being compiled
+          with
+          [
+              Context=fmt::v7::basic_format_context<std::back_insert_iterator<fmt::v7::detail::buffer<char>>,char>
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1400): message : see reference to function template instantiation 'unsigned __int64 fmt::v7::detail::encode_types<Context,fmt::v7::basic_string_view<char>,const char[3]>(void)' being compiled
+          with
+          [
+              Context=fmt::v7::basic_format_context<std::back_insert_iterator<fmt::v7::detail::buffer<char>>,char>
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1811): message : see reference to class template instantiation 'fmt::v7::format_arg_store<fmt::v7::basic_format_context<std::back_insert_iterator<fmt::v7::detail::buffer<char>>,char>,fmt::v7::basic_string_view<char>,const char [3]>' being compiled
+C:\libs\lib\spdlog\include\spdlog\fmt\bundled\format-inl.h(161): message : see reference to function template instantiation 'std::back_insert_iterator<fmt::v7::detail::buffer<char>> fmt::v7::format_to<fmt::v7::detail::buffer<char>,char[5],fmt::v7::string_view&,const char(&)[3],0>(std::back_insert_iterator<fmt::v7::detail::buffer<char>>,const S (&),fmt::v7::string_view &,const char (&)[3])' being compiled
+          with
+          [
+              S=char [5]
           ]
   Generating Code...
-     Creating library C:/Sensor-Stream-Pipe/build/bin/Release/ssp_server.lib and object C:/Sensor-Stream-Pipe/build/bin/Release/ssp_server.exp
-  ssp_server.vcxproj -> C:\Sensor-Stream-Pipe\build\bin\Release\ssp_server.exe

@@ -62,13 +62,18 @@ int main(int argc, char *argv[]) {
     while (reader.HasNextFrame()) {
       reader.NextFrame();
       std::vector<FrameStruct> f_list = reader.GetCurrentFrame();
+
       for (FrameStruct f : f_list) {
         std::string decoder_id = f.stream_id + std::to_string(f.sensor_id);
+
+        // Discard frames older than 15ms
+        u_long frameAge = f.timestamps.back() - f.timestamps.at(1);
+        bool tooOld = frameAge > 15;
 
         cv::Mat img;
         imgChanged = FrameStructToMat(f, img, decoders);
 
-        if (imgChanged && !img.empty()) {
+        if (imgChanged && !img.empty() && !tooOld) {
 
           // Manipulate image to show as a color map
           if (f.frame_type == 1) {

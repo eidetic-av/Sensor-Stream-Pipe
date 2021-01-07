@@ -1,0 +1,79 @@
+﻿  Building Custom Rule C:/Sensor-Stream-Pipe/CMakeLists.txt
+  ssp_client_k4a.cc
+\libs\include\k4a/k4a.hpp(56,96): warning C4003: not enough arguments for function-like macro invocation 'min'
+\libs\include\k4a/k4a.hpp(59,86): warning C4003: not enough arguments for function-like macro invocation 'max'
+\libs\include\k4a/k4a.hpp(64,54): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\Sensor-Stream-Pipe\clients\ssp_client_k4a.cc(67,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\clients\ssp_client_k4a.cc(134,52): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Sensor-Stream-Pipe\clients\ssp_client_k4a.cc(67,22): warning C4996: 'getpid': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getpid. See online help for details.
+\libs\include\k4a/k4a.hpp(56,96): error C2589: '(': illegal token on right side of '::'
+\libs\include\k4a/k4a.hpp(375): message : see reference to function template instantiation 'output_type k4a::internal::clamp_cast<uint64_t,_Rep>(input_type)' being compiled
+          with
+          [
+              output_type=uint64_t,
+              _Rep=__int64,
+              input_type=__int64
+          ]
+\libs\include\k4a/k4a.hpp(56,1): error C2062: type 'unknown-type' unexpected
+\libs\include\k4a/k4a.hpp(56): error C2144: syntax error: 'unknown-type' should be preceded by '('
+\libs\include\k4a/k4a.hpp(56,1): error C2059: syntax error: ')'
+\libs\include\k4a/k4a.hpp(59,86): error C2589: '(': illegal token on right side of '::'
+\libs\include\k4a/k4a.hpp(59,1): error C2062: type 'unknown-type' unexpected
+\libs\include\k4a/k4a.hpp(59): error C2144: syntax error: 'unknown-type' should be preceded by '('
+\libs\include\k4a/k4a.hpp(59,1): error C2059: syntax error: ')'
+\libs\include\k4a/k4a.hpp(64,54): error C2589: '(': illegal token on right side of '::'
+\libs\include\k4a/k4a.hpp(64,1): error C2062: type 'unknown-type' unexpected
+\libs\include\k4a/k4a.hpp(64,1): error C2059: syntax error: ')'
+\libs\include\k4a/k4a.hpp(66,18): error C2589: '(': illegal token on right side of '::'
+\libs\include\k4a/k4a.hpp(66,1): error C2062: type 'unknown-type' unexpected
+\libs\include\k4a/k4a.hpp(66,1): error C2059: syntax error: ')'
+\libs\include\k4a/k4a.hpp(67,18): error C2589: '(': illegal token on right side of '::'
+\libs\include\k4a/k4a.hpp(67,1): error C2062: type 'unknown-type' unexpected
+\libs\include\k4a/k4a.hpp(67,1): error C2059: syntax error: ')'
+  libav_decoder.cc
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(12,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(40,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(73,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  zdepth_decoder.cc
+  image_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(51,28): warning C4101: 'e': unreferenced local variable
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(100,45): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(101,44): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  multi_image_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  network_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\network_reader.cc(53,20): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+C:\Sensor-Stream-Pipe\readers\network_reader.cc(66,52): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\network_reader.cc(39,10): warning C4996: 'zmq::detail::socket_base::recv': from 4.3.1, use recv taking a reference to message_t and recv_flags
+  image_converter.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  image_decoder.cc
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(44,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(58,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(77,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  kinect_utils.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  utils.cc
+  video_utils.cc
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(15,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(64,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...

@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\lib\Install\opencv\include;C:\lib\Install\opencv\include\opencv;C:\lib\cereal\include;C:\lib\cppzmq;C:\lib\ffmpeg\include;C:\lib\libzmq\include;C:\lib\spdlog\include;C:\lib\Zdepth\include;C:\lib\yaml-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\libs\install\opencv\include;C:\libs\install\opencv\include\opencv;C:\libs\lib\cereal\include;C:\libs\lib\cppzmq;C:\libs\lib\ffmpeg\include;C:\libs\lib\libzmq\include;C:\libs\lib\spdlog\include;C:\libs\lib\Zdepth\include;C:\libs\lib\yaml-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -159,7 +159,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\lib\libzmq\build\lib\Release\libzmq-v142-mt-4_3_4.lib;C:\Zdepth\Release\zdepth.lib;C:\Zdepth\zstd\Release\zstd.lib;C:\lib\yaml-cpp\build\Release\yaml-cpp.lib;C:\lib\ffmpeg\lib\avcodec.lib;C:\lib\ffmpeg\lib\avformat.lib;C:\lib\ffmpeg\lib\avutil.lib;C:\lib\ffmpeg\lib\swscale.lib;C:\lib\Install\opencv\x64\vc16\lib\opencv_core3413.lib;C:\lib\Install\opencv\x64\vc16\lib\opencv_imgproc3413.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\libs\lib\libzmq\build\lib\Release\libzmq-v142-mt-4_3_4.lib;C:\Zdepth\Release\zdepth.lib;C:\Zdepth\zstd\Release\zstd.lib;C:\libs\lib\yaml-cpp\build\Release\yaml-cpp.lib;C:\libs\lib\ffmpeg\lib\avcodec.lib;C:\libs\lib\ffmpeg\lib\avformat.lib;C:\libs\lib\ffmpeg\lib\avutil.lib;C:\libs\lib\ffmpeg\lib\swscale.lib;C:\libs\install\opencv\x64\vc16\lib\opencv_core3413.lib;C:\libs\install\opencv\x64\vc16\lib\opencv_imgproc3413.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>/libs/lib;/libs/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -171,6 +171,10 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>

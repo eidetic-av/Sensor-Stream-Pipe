@@ -33,7 +33,7 @@ NetworkReader* reader;
 ZDepthDecoder* decoder;
 
 extern "C" {
-    __declspec (dllexport) void Init(int port)
+    __declspec (dllexport) void InitNetworkReader(int port)
     {
         spdlog::set_level(spdlog::level::debug);
         av_log_set_level(AV_LOG_QUIET);
@@ -55,10 +55,11 @@ extern "C" {
         return reader->HasNextFrame();
     }
 
-    __declspec (dllexport) void* GetNextFramePtr()
+    __declspec (dllexport) void* GetNextFramePtr(u_long &frameAge)
     {
         reader->NextFrame();
         FrameStruct f = reader->GetCurrentFrame()[0];
+        frameAge = f.timestamps.back() - f.timestamps.at(1);;
         return decoder->DecodeRaw(f);
     }
 }

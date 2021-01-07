@@ -1,10 +1,10 @@
 # CMake generation dependency list for this directory.
-/lib/Install/opencv/OpenCVConfig-version.cmake
-/lib/Install/opencv/OpenCVConfig.cmake
-/lib/Install/opencv/x64/vc16/lib/OpenCVConfig.cmake
-/lib/Install/opencv/x64/vc16/lib/OpenCVModules-release.cmake
-/lib/Install/opencv/x64/vc16/lib/OpenCVModules.cmake
-/lib/ffmpeg/ffmpeg-config.cmake
+/libs/lib/ffmpeg/ffmpeg-config.cmake
+/libs/lib/opencv/OpenCVConfig-version.cmake
+/libs/lib/opencv/OpenCVConfig.cmake
+/libs/lib/opencv/x64/vc16/lib/OpenCVConfig.cmake
+/libs/lib/opencv/x64/vc16/lib/OpenCVModules-release.cmake
+/libs/lib/opencv/x64/vc16/lib/OpenCVModules.cmake
 C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCInformation.cmake
 C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake
 C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake

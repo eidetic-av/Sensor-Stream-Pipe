@@ -112,6 +112,9 @@ int main(int argc, char *argv[]) {
 
     for (unsigned int type : types) {
       YAML::Node v = codec_parameters["video_encoder"][type];
+
+      spdlog::debug("Codec information:\n {}", type);
+
       std::string encoder_type = v["type"].as<std::string>();
       std::shared_ptr<IEncoder> fe = nullptr;
       if (encoder_type == "libav")

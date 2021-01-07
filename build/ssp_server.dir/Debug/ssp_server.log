@@ -1,0 +1,390 @@
+﻿  ssp_server.cc
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(103,1): warning C4005: 'AF_IPX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(457): message : see previous definition of 'AF_IPX'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(147,1): warning C4005: 'AF_MAX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(476): message : see previous definition of 'AF_MAX'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(185,1): warning C4005: 'SO_DONTLINGER': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(399): message : see previous definition of 'SO_DONTLINGER'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(238,25): error C2011: 'sockaddr': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1007): message : see declaration of 'sockaddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(440,5): error C2143: syntax error: missing '}' before 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(440,27): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(494,1): error C2143: syntax error: missing ';' before '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(494,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(494,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(575,1): warning C4005: 'IN_CLASSA': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(284): message : see previous definition of 'IN_CLASSA'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(581,1): warning C4005: 'IN_CLASSB': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(290): message : see previous definition of 'IN_CLASSB'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(587,1): warning C4005: 'IN_CLASSC': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(296): message : see previous definition of 'IN_CLASSC'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(598,1): warning C4005: 'INADDR_ANY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(301): message : see previous definition of 'INADDR_ANY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(600,1): warning C4005: 'INADDR_BROADCAST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(303): message : see previous definition of 'INADDR_BROADCAST'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(636,28): error C2011: 'sockaddr_in': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1011): message : see declaration of 'sockaddr_in'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(136,23): error C2011: 'fd_set': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1019): message : see declaration of 'fd_set'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(156,1): warning C4005: 'FD_CLR': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(94): message : see previous definition of 'FD_CLR'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(171,1): warning C4005: 'FD_SET': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(99): message : see previous definition of 'FD_SET'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(180,16): error C2011: 'timeval': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1035): message : see declaration of 'timeval'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(236,17): error C2011: 'hostent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1023): message : see declaration of 'hostent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(249,16): error C2011: 'netent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(177): message : see declaration of 'netent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(256,17): error C2011: 'servent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1027): message : see declaration of 'servent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(268,18): error C2011: 'protoent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1031): message : see declaration of 'protoent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(364,24): error C2011: 'WSAData': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(319): message : see declaration of 'WSAData'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(462,18): error C2011: 'sockproto': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(491): message : see declaration of 'sockproto'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(504,16): error C2011: 'linger': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(1015): message : see declaration of 'linger'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(517,1): warning C4005: 'SOMAXCONN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(541): message : see previous definition of 'SOMAXCONN'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(552,1): warning C4005: 'FD_READ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(559): message : see previous definition of 'FD_READ'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(555,1): warning C4005: 'FD_WRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(560): message : see previous definition of 'FD_WRITE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(558,1): warning C4005: 'FD_OOB': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(561): message : see previous definition of 'FD_OOB'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(561,1): warning C4005: 'FD_ACCEPT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(562): message : see previous definition of 'FD_ACCEPT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(564,1): warning C4005: 'FD_CONNECT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(563): message : see previous definition of 'FD_CONNECT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(567,1): warning C4005: 'FD_CLOSE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(564): message : see previous definition of 'FD_CLOSE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1625,1): error C2375: 'accept': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(739): message : see declaration of 'accept'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1647,1): error C2375: 'bind': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(744): message : see declaration of 'bind'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1668,1): error C2375: 'closesocket': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(749): message : see declaration of 'closesocket'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1685,1): error C2375: 'connect': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(751): message : see declaration of 'connect'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1706,1): error C2375: 'ioctlsocket': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(756): message : see declaration of 'ioctlsocket'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1729,1): error C2375: 'getpeername': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(761): message : see declaration of 'getpeername'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1750,1): error C2375: 'getsockname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(766): message : see declaration of 'getsockname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1771,1): error C2375: 'getsockopt': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(771): message : see declaration of 'getsockopt'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1796,1): error C2375: 'htonl': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(778): message : see declaration of 'htonl'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1813,1): error C2375: 'htons': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(780): message : see declaration of 'htons'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831,1): error C2375: 'inet_addr': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(782): message : see declaration of 'inet_addr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1849,1): error C2375: 'inet_ntoa': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(784): message : see declaration of 'inet_ntoa'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1949,1): error C2375: 'listen': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(786): message : see declaration of 'listen'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1968,1): error C2375: 'ntohl': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(790): message : see declaration of 'ntohl'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1985,1): error C2375: 'ntohs': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(792): message : see declaration of 'ntohs'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2002,1): error C2375: 'recv': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(794): message : see declaration of 'recv'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2025,1): error C2375: 'recvfrom': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(800): message : see declaration of 'recvfrom'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2052,1): error C2375: 'select': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(808): message : see declaration of 'select'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2077,1): error C2375: 'send': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(815): message : see declaration of 'send'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2100,1): error C2375: 'sendto': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(821): message : see declaration of 'sendto'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2127,1): error C2375: 'setsockopt': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(829): message : see declaration of 'setsockopt'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2152,1): error C2375: 'shutdown': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(836): message : see declaration of 'shutdown'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2172,1): error C2375: 'socket': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(840): message : see declaration of 'socket'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2197,1): error C2375: 'gethostbyaddr': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(847): message : see declaration of 'gethostbyaddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2219,1): error C2375: 'gethostbyname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(852): message : see declaration of 'gethostbyname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2236,1): error C2375: 'gethostname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(854): message : see declaration of 'gethostname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2276,1): error C2375: 'getservbyport': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(858): message : see declaration of 'getservbyport'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2295,1): error C2375: 'getservbyname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(862): message : see declaration of 'getservbyname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2314,1): error C2375: 'getprotobynumber': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(866): message : see declaration of 'getprotobynumber'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2331,1): error C2375: 'getprotobyname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(868): message : see declaration of 'getprotobyname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2351,1): error C2375: 'WSAStartup': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(872): message : see declaration of 'WSAStartup'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2371,1): error C2375: 'WSACleanup': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(876): message : see declaration of 'WSACleanup'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2388,1): error C2375: 'WSASetLastError': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(878): message : see declaration of 'WSASetLastError'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2405,1): error C2375: 'WSAGetLastError': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(880): message : see declaration of 'WSAGetLastError'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2426,1): error C2375: 'WSAIsBlocking': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(882): message : see declaration of 'WSAIsBlocking'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2444,1): error C2375: 'WSAUnhookBlockingHook': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(884): message : see declaration of 'WSAUnhookBlockingHook'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2462,1): error C2375: 'WSASetBlockingHook': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(886): message : see declaration of 'WSASetBlockingHook'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2480,1): error C2375: 'WSACancelBlockingCall': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(888): message : see declaration of 'WSACancelBlockingCall'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2498,1): error C2375: 'WSAAsyncGetServByName': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(890): message : see declaration of 'WSAAsyncGetServByName'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2526,1): error C2375: 'WSAAsyncGetServByPort': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(898): message : see declaration of 'WSAAsyncGetServByPort'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2554,1): error C2375: 'WSAAsyncGetProtoByName': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(906): message : see declaration of 'WSAAsyncGetProtoByName'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2580,1): error C2375: 'WSAAsyncGetProtoByNumber': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(913): message : see declaration of 'WSAAsyncGetProtoByNumber'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2606,1): error C2375: 'WSAAsyncGetHostByName': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(920): message : see declaration of 'WSAAsyncGetHostByName'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2632,1): error C2375: 'WSAAsyncGetHostByAddr': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(927): message : see declaration of 'WSAAsyncGetHostByAddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2662,1): error C2375: 'WSACancelAsyncRequest': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(936): message : see declaration of 'WSACancelAsyncRequest'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(2680,1): error C2375: 'WSAAsyncSelect': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock.h(938): message : see declaration of 'WSAAsyncSelect'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(4206,1): error C2059: syntax error: '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(4206,1): error C2143: syntax error: missing ';' before '}'
+C:\libs\lib\libzmq\include\zmq.h(52,12): error C2143: syntax error: missing ';' before '{'
+C:\libs\lib\libzmq\include\zmq.h(52,12): error C2447: '{': missing function header (old-style formal list?)
+C:\libs\lib\cppzmq\zmq.hpp(273,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\libs\lib\cppzmq\zmq.hpp(273,21): error C2146: syntax error: missing ';' before identifier 'free_fn'
+C:\libs\lib\cppzmq\zmq.hpp(274,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\libs\lib\cppzmq\zmq.hpp(274,24): error C2146: syntax error: missing ';' before identifier 'pollitem_t'
+C:\libs\lib\cppzmq\zmq.hpp(279,36): error C3861: 'zmq_errno': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(283,16): error C3861: 'zmq_strerror': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(293,14): error C3861: 'zmq_poll': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(357,5): error C3861: 'zmq_version': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(364,5): error C3861: 'zmq_version': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(424,14): error C2061: syntax error: identifier 'free_fn'
+C:\libs\lib\cppzmq\zmq.hpp(517,53): error C2061: syntax error: identifier 'free_fn'
+C:\libs\lib\cppzmq\zmq.hpp(705,29): error C2143: syntax error: missing ';' before '*'
+C:\libs\lib\cppzmq\zmq.hpp(705,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\libs\lib\cppzmq\zmq.hpp(705,51): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\libs\lib\cppzmq\zmq.hpp(706,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\libs\lib\cppzmq\zmq.hpp(706,35): error C2143: syntax error: missing ';' before '*'
+C:\libs\lib\cppzmq\zmq.hpp(706,63): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\libs\lib\cppzmq\zmq.hpp(710,18): error C3646: 'msg': unknown override specifier
+C:\libs\lib\cppzmq\zmq.hpp(710,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\libs\lib\cppzmq\zmq.hpp(386,14): error C2789: 'zmq::message_t::zmq_msg_t': an object of const-qualified type must be initialized
+C:\libs\lib\cppzmq\zmq.hpp(706): message : see declaration of 'zmq::message_t::zmq_msg_t'
+C:\libs\lib\cppzmq\zmq.hpp(388,32): error C2065: 'msg': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(388,18): error C3861: 'zmq_msg_init': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(392,23): error C2789: 'zmq::message_t::zmq_msg_t': an object of const-qualified type must be initialized
+C:\libs\lib\cppzmq\zmq.hpp(706): message : see declaration of 'zmq::message_t::zmq_msg_t'
+C:\libs\lib\cppzmq\zmq.hpp(394,37): error C2065: 'msg': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(394,18): error C3861: 'zmq_msg_init_size': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(412,14): error C2789: 'zmq::message_t::zmq_msg_t': an object of const-qualified type must be initialized
+C:\libs\lib\cppzmq\zmq.hpp(706): message : see declaration of 'zmq::message_t::zmq_msg_t'
+C:\libs\lib\cppzmq\zmq.hpp(414,37): error C2065: 'msg': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(414,18): error C3861: 'zmq_msg_init_size': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(424,14): error C2789: 'zmq::message_t::zmq_msg_t': an object of const-qualified type must be initialized
+C:\libs\lib\cppzmq\zmq.hpp(706): message : see declaration of 'zmq::message_t::zmq_msg_t'
+C:\libs\lib\cppzmq\zmq.hpp(426,37): error C2065: 'msg': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(426,56): error C2065: 'ffn_': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(426,62): error C2065: 'hint_': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(426,18): error C3861: 'zmq_msg_init_data': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(468,54): error C2039: 'msg': is not a member of 'zmq::message_t'
+C:\libs\lib\cppzmq\zmq.hpp(383): message : see declaration of 'zmq::message_t'
+C:\libs\lib\cppzmq\zmq.hpp(469,5): error C2789: 'zmq::message_t::zmq_msg_t': an object of const-qualified type must be initialized
+C:\libs\lib\cppzmq\zmq.hpp(706): message : see declaration of 'zmq::message_t::zmq_msg_t'
+C:\libs\lib\cppzmq\zmq.hpp(468,46): error C2614: 'zmq::message_t': illegal member initialization: 'msg' is not a base or member
+C:\libs\lib\cppzmq\zmq.hpp(470,36): error C2039: 'msg': is not a member of 'zmq::message_t'
+C:\libs\lib\cppzmq\zmq.hpp(383): message : see declaration of 'zmq::message_t'
+C:\libs\lib\cppzmq\zmq.hpp(470,18): error C3861: 'zmq_msg_init': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(476,19): error C2065: 'msg': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(476,28): error C2039: 'msg': is not a member of 'zmq::message_t'
+C:\libs\lib\cppzmq\zmq.hpp(383): message : see declaration of 'zmq::message_t'
+C:\libs\lib\cppzmq\zmq.hpp(483,33): error C2065: 'msg': undeclared identifier
+C:\libs\lib\cppzmq\zmq.hpp(483,18): error C3861: 'zmq_msg_close': identifier not found
+C:\libs\lib\cppzmq\zmq.hpp(483,1): fatal error C1003: error count exceeds 100; stopping compilation
+  video_file_reader.cc
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(107,41): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(113,43): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(114,43): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(115,47): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(157,41): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned char
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(160,35): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned char
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(167,22): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(44,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(237,49): warning C4244: 'argument': conversion from 'int64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(238,55): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  image_reader.cc
+C:\libs\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(51,28): warning C4101: 'e': unreferenced local variable
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(100,45): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(101,44): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  kinect_reader.cc
+C:\libs\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(190,62): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(191,33): warning C4244: 'argument': conversion from 'uint64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(241,62): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(242,33): warning C4244: 'argument': conversion from 'uint64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(272,79): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(274,33): warning C4244: 'argument': conversion from 'uint64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  kinect_utils.cc
+C:\libs\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  libav_decoder.cc
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(12,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(40,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(73,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  zdepth_decoder.cc
+  zdepth_encoder.cc
+C:\libs\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\encoders\zdepth_encoder.cc(44,58): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\encoders\zdepth_encoder.cc(121,58): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  null_encoder.cc
+  libav_encoder.cc
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(11,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(21,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(158,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(159,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(183,23): warning C4244: '=': conversion from 'const _Ty' to 'uint8_t', possible loss of data
+          with
+          [
+              _Ty=ushort
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(234,57): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(430,41): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1073,9): error C2338: Cannot format argument. To make type T formattable provide a formatter<T> specialization: https://fmt.dev/latest/api.html#formatting-user-defined-types
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1070): message : while compiling class template member function 'int fmt::v7::detail::arg_mapper<Context>::map(...)'
+          with
+          [
+              Context=context
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1259): message : see reference to function template instantiation 'int fmt::v7::detail::arg_mapper<Context>::map(...)' being compiled
+          with
+          [
+              Context=context
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1084): message : see reference to class template instantiation 'fmt::v7::detail::arg_mapper<Context>' being compiled
+          with
+          [
+              Context=context
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1241): message : see reference to alias template instantiation 'fmt::v7::detail::mapped_type_constant<YAML::Node,context>' being compiled
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/core.h(1400): message : see reference to function template instantiation 'unsigned __int64 fmt::v7::detail::encode_types<Context,YAML::Node,>(void)' being compiled
+          with
+          [
+              Context=context
+          ]
+C:\libs\lib\spdlog\include\spdlog/fmt/bundled/format.h(3510): message : see reference to class template instantiation 'fmt::v7::format_arg_store<context,YAML::Node>' being compiled
+C:\libs\lib\spdlog\include\spdlog/logger.h(316): message : see reference to function template instantiation 'std::back_insert_iterator<fmt::v7::detail::buffer<char>> fmt::v7::format_to<FormatString,const YAML::Node&,250,char>(fmt::v7::basic_memory_buffer<char,250,std::allocator<char>> &,const S &,const YAML::Node &)' being compiled
+          with
+          [
+              FormatString=spdlogger::string_view_t,
+              S=spdlogger::string_view_t
+          ]
+C:\libs\lib\spdlog\include\spdlog/logger.h(86): message : see reference to function template instantiation 'void spdlogger::logger::log_<spdlogger::string_view_t,YAML::Node>(spdlogger::source_loc,spdlogger::level::level_enum,const FormatString &,const YAML::Node &)' being compiled
+          with
+          [
+              FormatString=spdlogger::string_view_t
+          ]
+C:\libs\lib\spdlog\include\spdlog/logger.h(92): message : see reference to function template instantiation 'void spdlogger::logger::log<YAML::Node>(spdlogger::source_loc,spdlogger::level::level_enum,spdlogger::string_view_t,const YAML::Node &)' being compiled
+C:\libs\lib\spdlog\include\spdlog/logger.h(110): message : see reference to function template instantiation 'void spdlogger::logger::log<char[23],YAML::Node>(spdlogger::level::level_enum,const FormatString (&),const YAML::Node &)' being compiled
+          with
+          [
+              FormatString=char [23]
+          ]
+C:\libs\lib\spdlog\include\spdlog/spdlog.h(142): message : see reference to function template instantiation 'void spdlogger::logger::info<char[23],YAML::Node>(const FormatString (&),const YAML::Node &)' being compiled
+          with
+          [
+              FormatString=char [23]
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(240): message : see reference to function template instantiation 'void spdlogger::info<char[23],YAML::Node>(const FormatString (&),const YAML::Node &)' being compiled
+          with
+          [
+              FormatString=char [23]
+          ]
+  multi_image_reader.cc
+C:\libs\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  utils.cc
+  video_utils.cc
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(15,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(64,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  image_decoder.cc
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(44,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(58,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(77,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  image_converter.cc
+C:\libs\lib\ffmpeg\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  Generating Code...

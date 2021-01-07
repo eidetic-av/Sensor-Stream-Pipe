@@ -1,0 +1,134 @@
+﻿  Building Custom Rule C:/Sensor-Stream-Pipe/CMakeLists.txt
+  libav_decoder.cc
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(12,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(40,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\decoders\libav_decoder.cc(73,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  zdepth_decoder.cc
+  libav_encoder.cc
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(11,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(21,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(157,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(158,39): warning C4244: '=': conversion from 'ushort' to 'uint8_t', possible loss of data
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(182,23): warning C4244: '=': conversion from 'const _Ty' to 'uint8_t', possible loss of data
+          with
+          [
+              _Ty=ushort
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(233,57): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\encoders\libav_encoder.cc(429,41): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  null_encoder.cc
+  zdepth_encoder.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\encoders\zdepth_encoder.cc(44,58): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\encoders\zdepth_encoder.cc(121,58): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  image_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(51,28): warning C4101: 'e': unreferenced local variable
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(100,45): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\image_reader.cc(101,44): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  kinect_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(190,62): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(191,33): warning C4244: 'argument': conversion from 'uint64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(241,62): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(242,33): warning C4244: 'argument': conversion from 'uint64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(272,79): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\kinect_reader.cc(274,33): warning C4244: 'argument': conversion from 'uint64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  multi_image_reader.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  video_file_reader.cc
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(107,41): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(113,43): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(114,43): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(115,47): warning C4996: 'AVStream::codec': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(157,41): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned char
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(160,35): warning C4244: '=': conversion from 'u_short' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned char
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(167,22): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(44,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(237,49): warning C4244: 'argument': conversion from 'int64_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Sensor-Stream-Pipe\readers\video_file_reader.cc(238,55): warning C4244: 'argument': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned long
+          ]
+  ssp_tester.cc
+C:\Sensor-Stream-Pipe\testers\ssp_tester.cc(8,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  image_converter.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  image_decoder.cc
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(44,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(58,3): warning C4996: 'av_register_all': was declared deprecated
+C:\Sensor-Stream-Pipe\utils\image_decoder.cc(77,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  kinect_utils.cc
+C:\libs\include\libavutil\error.h(120,1): warning C4005: 'av_err2str': macro redefinition
+C:\Sensor-Stream-Pipe\structs\../utils/utils.h(28): message : see previous definition of 'av_err2str'
+  utils.cc
+  video_utils.cc
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(15,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Sensor-Stream-Pipe\utils\video_utils.cc(64,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
