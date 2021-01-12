@@ -31,7 +31,11 @@
 *.out
 *.app
 bin/
+build/
 
 cmake-*/
 .idea/
 .vs/
+
+# any file with a tilde is ignored by git
+*~*
