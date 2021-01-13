@@ -169,33 +169,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_client_k4a.vcxproj">
-      <Project>{34AE8897-E3FD-36D6-ADB0-C16240796539}</Project>
-      <Name>ssp_client_k4a</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_client_opencv.vcxproj">
-      <Project>{48E8729F-AA1F-36AB-9CB4-B8FBB0C5B2B9}</Project>
-      <Name>ssp_client_opencv</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_client_plugin.vcxproj">
-      <Project>{53C8E7C8-A60B-3F13-908D-481E19E1C924}</Project>
-      <Name>ssp_client_plugin</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_client_pointcloud.vcxproj">
-      <Project>{6D0B635F-061D-32EB-BFDF-02DC53B9C40B}</Project>
-      <Name>ssp_client_pointcloud</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_client_template.vcxproj">
-      <Project>{B66369C3-205B-367D-BFF9-D1FB908BC861}</Project>
-      <Name>ssp_client_template</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_server.vcxproj">
       <Project>{DBB5D8D6-7218-3185-8032-BE75F5348AF4}</Project>
       <Name>ssp_server</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Sensor-Stream-Pipe\build\ssp_tester.vcxproj">
-      <Project>{1DE8611E-9E30-3B19-8117-A0EC3546F3E1}</Project>
-      <Name>ssp_tester</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

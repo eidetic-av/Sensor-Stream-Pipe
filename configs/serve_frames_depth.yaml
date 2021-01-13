@@ -3,10 +3,17 @@ general:
   host: "localhost"
   port: 9999
   frame_source:
-    type: "frames"
+    type: "kinect"
     parameters:
-      path: "/home/amourao/code/2019-05_moetsi/davp-data-scripts/apt0-frames-depth.txt"
-      path1: "/home/amourao/code/2019-05_moetsi/davp-data-scripts/stairs-seq-01-frames-depth.txt"
+      stream_color_video: True
+      stream_depth_video: True
+      stream_ir_video: True
+      streaming_color_format: "K4A_IMAGE_FORMAT_COLOR_BGRA32"
+      streaming_color_resolution: "K4A_COLOR_RESOLUTION_720P"
+      streaming_depth_mode: "K4A_DEPTH_MODE_NFOV_UNBINNED"
+      wired_sync_mode: "K4A_WIRED_SYNC_MODE_STANDALONE"
+      streaming_rate: "K4A_FRAMES_PER_SECOND_30"
+      absoluteExposureValue: 0
 video_encoder:
   0: #color
     type: "libav"
